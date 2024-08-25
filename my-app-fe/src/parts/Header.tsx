@@ -61,6 +61,9 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
           <ListItem button onClick={() => handleMenuItemClick('/volunteer')}>
             <ListItemText primary="Volunteer" />
           </ListItem>
+          <ListItem button onClick={() => handleMenuItemClick('/storagevolunteer')}>
+            <ListItemText primary="Storage Volunteer" />
+          </ListItem>
           <ListItem button onClick={() => handleMenuItemClick('/organization')}>
             <ListItemText primary="Organization" />
           </ListItem>
