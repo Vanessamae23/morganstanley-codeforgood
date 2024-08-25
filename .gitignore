@@ -12,6 +12,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore environment files
+.venv/
 .env
 .env.*
 /my-app-fe/.env.local
